@@ -1,0 +1,63 @@
+body{
+    background: #ececec;
+}
+
+.login{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+    background: #fff;
+}
+
+/* login hover effect */
+
+/* .firebaseui-idp-button:hover{
+       background: #000;
+} */
+
+/* .heading{
+    color: rgba(0,0,0,0.5);
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    margin: 100px 0 20px;
+} */
+.heading {
+    color: rgba(0, 0, 0, 0.8); /* Slightly darker color */
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    margin: 100px 0 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for depth */
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Improved font stack */
+    letter-spacing: 2px; /* Add some letter spacing */
+    line-height: 1.2; /* Improved line height */
+}
+
+.btn.grey {
+    background-color: #95a5a6; /* Grey color for edit button */
+    color: #ffffff; /* Text color */
+    border: 1px solid #7f8c8d; /* Border color slightly darker than background */
+}
+
+.btn.grey:hover {
+    background-color: #7f8c8d; /* Darker grey on hover */
+    border-color: #6c7a7b; /* Darker border on hover */
+}
+
+.btn.danger {
+    background-color: #e74c3c; /* Red color for danger */
+    color: white; /* Text color */
+    border: 1px solid #c0392b; /* Border color slightly darker than background */
+}
+
+.btn.danger:hover {
+    background-color: #c0392b; /* Darker red on hover */
+    border-color: #b53426; /* Darker border on hover */
+}
+
